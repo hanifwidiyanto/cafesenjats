@@ -19,7 +19,7 @@ export default function Landing({landingset} : LandingProps) {
             <div className='absolute bottom-6 w-full flex justify-center'>
                 <div className='w-10/12 bg-slate-50 rounded-lg shadow-lg px-10 py-6 flex flex-col gap-6 items-center text-center'>
                     <QuoteDisplay />
-                    <div onClick={handleClick} className='bg-amber-900 px-8 py-3 rounded-md text-slate-50 flex gap-2 h-fit items-center'>
+                    <div onClick={handleClick} className='bg-amber-900 px-8 py-3 rounded-md text-slate-50 flex gap-2 h-fit items-center cursor-pointer'>
                         <span className='font-2xl tracking-wide'>Pesan Kopi</span>
                         <BsArrowRightShort className="relative top-1" />
                     </div>

@@ -23,7 +23,7 @@ export default function Menu() {
             {askName &&
                 <GetName getName={handleGetName} />
             }
-            <div className="px-4 py-3">
+            <div className="px-4 py-3 h-screen">
                 <Header name={name} />
                 <MenuList />
             </div>

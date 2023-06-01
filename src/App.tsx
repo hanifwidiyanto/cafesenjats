@@ -8,10 +8,12 @@ function App() {
   return (
     <>
       {
-        landing &&
-        <Landing landingset={setLanding} />
+        landing ?
+          <Landing landingset={setLanding} />
+          :
+          <Menu />
       }
-      <Menu />
+
     </>
   )
 }
