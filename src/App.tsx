@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-      {/* {
+      {
         landing &&
         <Landing landingset={setLanding} />
-      } */}
+      }
       <Menu />
     </>
   )
