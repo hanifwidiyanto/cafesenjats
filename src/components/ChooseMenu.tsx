@@ -10,6 +10,7 @@ function ChooseMenu() {
                 <div className="z-10 flex w-full justify-between cursor-pointer">
                     <span className="w-28 text-center font-medium" onClick={()=>setChooseFood(true)}>Foods</span>
                     <span className="w-28 text-center font-medium" onClick={()=>setChooseFood(false)}>Drinks</span>
+                    
                 </div>
             </div>
         </div>
